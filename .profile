@@ -11,11 +11,12 @@ export MANPATH=/opt/local/share/man:$MANPATH
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]\[\033[01;31m\]$(__git_ps1 " {%s}")\[\033[00m\]\$ '
 
 # Custom git aliases
-alias  ga='git add'
-alias  gb='git branch'
+alias ga='git add'
+alias gb='git branch'
 alias gco='git checkout'
-alias  gk='git kompare'
+alias gk='git kompare'
 alias gst='git status'
+alias gitk='gitk --all'
 
 # Enable completion for custom git aliases
 complete -o default -o nospace -F _git_add ga
