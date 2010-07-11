@@ -1,7 +1,7 @@
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login exists.
 
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:/usr/local/sbin:$PATH
 
 # Color prompt with showing current git branch
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]\[\033[01;31m\]$(__git_ps1 " {%s}")\[\033[00m\]\$ '
